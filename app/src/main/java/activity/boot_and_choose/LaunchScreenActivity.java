@@ -6,41 +6,28 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.content.res.Resources;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Environment;
 import android.provider.Settings;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
-
 import com.example.stx_grade.R;
-import com.van.jni.VanCmd;
-
 import java.io.File;
 import java.util.Locale;
-
-import activity.gps.GnssSetup_Activity;
-import packexcalib.exca.DataSaved;
-import services.UpdateValuesService;
 import utils.FullscreenActivity;
-import utils.MyRW_IntMem;
 
 
 @SuppressLint("CustomSplashScreen")
 public class LaunchScreenActivity extends AppCompatActivity {
     private ProgressBar pgBar;
-    public static boolean isTech=false;
     private int progress = 0;
     String[] PERMISSIONS;
     int PERMISSION_ALL = 1;
     CountDownTimer count;
     String deviceId;
-
-    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,8 +69,6 @@ public class LaunchScreenActivity extends AppCompatActivity {
 
             @Override
             public void onFinish() {
-                deviceId = Build.BRAND;
-                new MyRW_IntMem().MyWrite("BUILD",deviceId.toString(),LaunchScreenActivity.this);
                 goMain();
 
             }

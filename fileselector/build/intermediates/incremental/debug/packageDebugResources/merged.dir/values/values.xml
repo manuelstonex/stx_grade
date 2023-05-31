@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="common_margin">10dp</dimen>
+    <dimen name="dp_0_1">0.1dp</dimen>
+    <string name="file_back">上一级</string>
+    <string name="file_no_documents">没有文件</string>
+    <string name="file_submit">确定</string>
+    <string name="folder_item">项</string>
+    <string name="module_name">文件选择器</string>
+</resources>

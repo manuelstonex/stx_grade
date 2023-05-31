@@ -161,7 +161,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline23">
 
         <ImageView
-            android:id="@+id/toMain"
+            android:id="@+id/powerOff"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginHorizontal="1.5dp"
@@ -183,7 +183,7 @@
             android:scaleType="centerInside" />
 
         <ImageView
-            android:id="@+id/pair"
+            android:id="@+id/toGrade"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginHorizontal="1.5dp"
