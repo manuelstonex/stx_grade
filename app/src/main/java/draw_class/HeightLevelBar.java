@@ -12,7 +12,7 @@ import android.view.View;
 public class HeightLevelBar extends View {
 
     Paint paint;
-    public int level = 0;
+    public int level = 1;
 
     public HeightLevelBar(Context context) {
         super(context);

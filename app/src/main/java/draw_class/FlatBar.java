@@ -1,6 +1,5 @@
 package draw_class;
 
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Canvas;
@@ -12,10 +11,12 @@ import android.view.View;
 
 import java.util.ArrayList;
 
-public class Draw1D extends View {
+public class FlatBar extends View {
+
+
     Paint paint;
 
-    public Draw1D(Context context) {
+    public FlatBar(Context context) {
         super(context);
         paint = new Paint();
     }
@@ -30,54 +31,7 @@ public class Draw1D extends View {
         Path path = new Path();
 
         float halfWidth = getWidth() / 2f;
-        float halfHeight = getHeight() / 2f;
-
-        float axt = -Integer.MAX_VALUE / 1000f;
-        float ayt = getHeight() * 0.70f;
-
-        float bxt = getWidth() + Integer.MAX_VALUE / 1000f;
-        float byt = getHeight() * 0.70f;
-
-        float mxt = (axt + bxt) / 2;
-        float myt = (ayt + byt) / 2;
-
-        float cyt = getHeight() + Integer.MAX_VALUE / 1000f;
-
-        float dyt = getHeight() + Integer.MAX_VALUE / 1000f;
-
-        float distanceA = getDistance(mxt, myt, axt, ayt);
-        float distanceB = getDistance(mxt, myt, bxt, byt);
-        float distanceC = getDistance(mxt, myt, axt, cyt);
-        float distanceD = getDistance(mxt, myt, bxt, dyt);
-
-        float angleA = getDegrees(mxt, myt, axt, ayt);
-        float angleB = getDegrees(mxt, myt, bxt, byt);
-        float angleC = getDegrees(mxt, myt, axt, cyt);
-        float angleD = getDegrees(mxt, myt, bxt, dyt);
-
-        double pendenza = 10;
-
-        float axGround = (float) (mxt + (distanceA * Math.cos(angleA + Math.toRadians(pendenza))));
-        float ayGround = (float) (myt + (distanceA * Math.sin(angleA + Math.toRadians(pendenza))));
-
-        float bxGround = (float) (mxt + (distanceB * Math.cos(angleB + Math.toRadians(pendenza))));
-        float byGround = (float) (myt + (distanceB * Math.sin(angleB + Math.toRadians(pendenza))));
-
-        float cxGround = (float) (mxt + (distanceC * Math.cos(angleC + Math.toRadians(pendenza))));
-        float cyGround = (float) (myt + (distanceC * Math.sin(angleC + Math.toRadians(pendenza))));
-
-        float dxGround = (float) (mxt + (distanceD * Math.cos(angleD + Math.toRadians(pendenza))));
-        float dyGround = (float) (myt + (distanceD * Math.sin(angleD + Math.toRadians(pendenza))));
-
-        float mGround = (ayGround - byGround) / (axGround - bxGround);
-        float qGround = -axGround * mGround + ayGround;
-
-        path.moveTo(axGround, ayGround);
-        path.lineTo(bxGround, byGround);
-        path.lineTo(dxGround, dyGround);
-        path.lineTo(cxGround, cyGround);
-        canvas.drawPath(path, paint);
-        path.reset();
+        float halfHeight = getHeight() * 0.65f;
 
         float ax, ay;
 
@@ -92,9 +46,9 @@ public class Draw1D extends View {
         float mcdx, mcdy;
 
         float withBlade = 3.80f;
-        float heightBlade = 1.2f;
+        float heightBlade = 1.6f;
 
-        float scala = 75;
+        float scala = 20;
 
         ax = halfWidth - ((withBlade / 2f) * scala);
         ay = halfHeight - ((heightBlade / 2f) * scala);
@@ -145,7 +99,6 @@ public class Draw1D extends View {
         float pivotSlopeXLeft = ax + withBlade * 0.15f * scala;
 
         float pivotSlopeXRight = bx - withBlade * 0.15f * scala;
-
 
         int bladeConfig = 3;
 
@@ -352,16 +305,8 @@ public class Draw1D extends View {
             path.reset();
         }
 
-    }
-
-    private float getDistance(float x1, float y1, float x2, float y2) {
-        final double sqrt = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
-        return (float) sqrt;
-    }
-
-    private float getDegrees(float x1, float y1, float x2, float y2) {
-        float dY = y2 - y1;
-        float dX = x2 - x1;
-        return (float) Math.atan2(dY, dX); // * 180 / Math.PI;
+        paint.setColor(Color.GREEN);
+        paint.setStrokeWidth(3);
+        canvas.drawLine(cx - (withBlade * 0.1f * scala), cy, dx + (withBlade * 0.1f * scala), dy, paint);
     }
 }
