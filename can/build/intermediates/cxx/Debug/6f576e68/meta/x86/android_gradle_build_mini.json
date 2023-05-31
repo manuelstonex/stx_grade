@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "D:\\OneDrive\\OneDrive - Stonex Srl\\Desktop\\stx_grade\\can\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\mnguyen\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "D:\\OneDrive\\OneDrive - Stonex Srl\\Desktop\\stx_grade\\can\\.cxx\\Debug\\6f576e68\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\mnguyen\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "D:\\OneDrive\\OneDrive - Stonex Srl\\Desktop\\stx_grade\\can\\.cxx\\Debug\\6f576e68\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "sysmcu-Debug-x86": {
+      "artifactName": "sysmcu",
+      "buildCommandComponents": [
+        "C:\\Users\\mnguyen\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\OneDrive\\OneDrive - Stonex Srl\\Desktop\\stx_grade\\can\\.cxx\\Debug\\6f576e68\\x86",
+        "sysmcu"
+      ],
+      "abi": "x86",
+      "output": "D:\\OneDrive\\OneDrive - Stonex Srl\\Desktop\\stx_grade\\can\\build\\intermediates\\cxx\\Debug\\6f576e68\\obj\\x86\\libsysmcu.so",
+      "runtimeFiles": []
+    }
+  }
+}

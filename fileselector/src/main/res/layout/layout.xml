@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/file_head_top_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#CCCCCC"
+        android:visibility="gone" />
+
+    <include layout="@layout/head_bar" />
+
+    <View
+        android:id="@+id/file_head_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#CCCCCC"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.van.fileselector.widget.FileRecyclerView
+            android:id="@+id/file_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/file_empty_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableTop="@mipmap/icon_folder_empty"
+            android:gravity="center"
+            android:text="@string/file_no_documents"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/file_submit_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/bottom_submit_selector"
+        android:gravity="center"
+        android:text="@string/file_submit"
+        android:visibility="gone" />
+</LinearLayout>

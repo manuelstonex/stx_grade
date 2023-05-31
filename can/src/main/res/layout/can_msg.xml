@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/no"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="序号"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="时间"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/channel"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="通道"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="ID"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="类型"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/dlc"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="长度"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="5dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        android:text="数据"/>
+</LinearLayout>

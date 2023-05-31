@@ -1,0 +1,66 @@
+com/van/fileselector/bean/FileItem.java
+ com.van.fileselector.bean.FileItem
+com/van/fileselector/helper/ItemParameter.java
+ com.van.fileselector.helper.ItemParameter
+com/van/fileselector/provide/order/FileOrderProvide.java
+ com.van.fileselector.provide.order.FileOrderProvide
+com/van/fileselector/provide/icon/FileIconProvide.java
+ com.van.fileselector.provide.icon.FileIconProvide
+com/van/fileselector/provide/dateFormat/FileDateProvide.java
+ com.van.fileselector.provide.dateFormat.FileDateProvide
+com/van/fileselector/provide/filter/FileFilterProvide.java
+ com.van.fileselector.provide.filter.FileFilterProvide
+com/van/fileselector/provide/size/FileSizeProvideDefault.java
+ com.van.fileselector.provide.size.FileSizeProvideDefault
+com/van/fileselector/util/FileUtils.java
+ com.van.fileselector.util.FileUtils
+com/van/fileselector/widget/RecycleViewDivider.java
+ com.van.fileselector.widget.RecycleViewDivider
+ com.van.fileselector.widget.RecycleViewDivider$1
+ com.van.fileselector.widget.RecycleViewDivider$DrawType
+com/van/fileselector/provide/dateFormat/FileDateProvideDefault.java
+ com.van.fileselector.provide.dateFormat.FileDateProvideDefault
+com/van/fileselector/util/SizeUtils.java
+ com.van.fileselector.util.SizeUtils
+com/van/fileselector/util/DynamicPermissionCompat.java
+ com.van.fileselector.util.DynamicPermissionCompat
+ com.van.fileselector.util.DynamicPermissionCompat$OnPermissionListener
+com/van/fileselector/constant/LengthConstant.java
+ com.van.fileselector.constant.LengthConstant
+ com.van.fileselector.constant.LengthConstant$Name
+ com.van.fileselector.constant.LengthConstant$Size
+com/van/fileselector/widget/FileSelectorLayout.java
+ com.van.fileselector.widget.FileSelectorLayout
+ com.van.fileselector.widget.FileSelectorLayout$OnButtonClickListener
+com/van/fileselector/provide/size/FileSizeProvide.java
+ com.van.fileselector.provide.size.FileSizeProvide
+com/van/fileselector/activity/BasePermissionActivity.java
+ com.van.fileselector.activity.BasePermissionActivity
+ com.van.fileselector.activity.BasePermissionActivity$1
+com/van/fileselector/util/FileUriPermissionCompat.java
+ com.van.fileselector.util.FileUriPermissionCompat
+com/van/fileselector/BuildConfig.java
+ com.van.fileselector.BuildConfig
+com/van/fileselector/adapter/FileSelectorAdapter.java
+ com.van.fileselector.adapter.FileSelectorAdapter
+ com.van.fileselector.adapter.FileSelectorAdapter$1
+ com.van.fileselector.adapter.FileSelectorAdapter$2
+ com.van.fileselector.adapter.FileSelectorAdapter$FileViewHolder
+ com.van.fileselector.adapter.FileSelectorAdapter$OnFileItemClickListener
+com/van/fileselector/activity/DefaultSelectorActivity.java
+ com.van.fileselector.activity.DefaultSelectorActivity
+ com.van.fileselector.activity.DefaultSelectorActivity$1
+com/van/fileselector/util/FileSelectorUtils.java
+ com.van.fileselector.util.FileSelectorUtils
+com/van/fileselector/widget/FileRecyclerView.java
+ com.van.fileselector.widget.FileRecyclerView
+ com.van.fileselector.widget.FileRecyclerView$1
+com/van/fileselector/helper/FileSelector.java
+ com.van.fileselector.helper.FileSelector
+ com.van.fileselector.helper.FileSelector$OnFileSelectListener
+com/van/fileselector/helper/ClickHelper.java
+ com.van.fileselector.helper.ClickHelper
+com/van/fileselector/util/Utils.java
+ com.van.fileselector.util.Utils
+com/van/fileselector/provide/icon/FileIconProvideDefault.java
+ com.van.fileselector.provide.icon.FileIconProvideDefault

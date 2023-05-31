@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_storage.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\layout\\fragment_storage.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_file_select.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\layout\\activity_file_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\layout_simple_spinner_item.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\layout\\simple_spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_can_test.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\layout\\fragment_can_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_usual.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\layout\\fragment_usual.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\layout_can_msg.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\layout\\can_msg.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_can.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\layout\\fragment_can.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\layout_simple_spinner_dropdown_item.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\layout\\simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\drawable_receiver_bg.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\drawable\\receiver_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_advanced.xml.flat",
+        "source": "C:\\Users\\yanghong\\Desktop\\SysMcu\\app\\src\\main\\res\\layout\\fragment_advanced.xml"
+    }
+]

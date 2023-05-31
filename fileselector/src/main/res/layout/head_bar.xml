@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/head_root"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="#EEEEEE"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/head_path_text_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ellipsize="marquee"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:text="Path" />
+
+    <TextView
+        android:id="@+id/head_back_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/head_upper_level_selector"
+        android:drawableLeft="@mipmap/icon_folder_back_step"
+        android:gravity="center"
+        android:maxHeight="45dp"
+        android:text="@string/file_back" />
+</LinearLayout>
